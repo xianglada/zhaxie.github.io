@@ -1,0 +1,7 @@
+$$.ready(function(){
+	var obj = $("<p class='btnSave-liu'>保存</p>");
+	$('#command_holder').append(obj);
+	$('.btnSave-liu').click(function(event){
+		$('#nav_menu_save .menu_text').trigger('click');
+	})
+})
